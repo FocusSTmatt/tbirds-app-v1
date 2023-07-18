@@ -1,0 +1,104 @@
+.MobileNav {
+
+}
+
+.menuButton {
+    color: white;
+    background-color: rgb(0, 128, 51);
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slideOutDisplayed {
+    
+    display: block;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(0, 128, 51);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* colors 
+
+#003876
+#008357
+#B8C0D8 */
+
+.mobileLink {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btn-links-flex-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reg-login-ctn {
+ position: relative;
+ margin-left: auto;
+} 
+
+.reg-login-ctn a {
+  ;
+  padding-right: 0.5em;
+  color: white;
+  text-decoration: none;
+
+}
+
+.slideOutHidden {
+    display: none;
+}
+
+.closeMenuIcon {
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+

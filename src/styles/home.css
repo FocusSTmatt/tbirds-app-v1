@@ -1,0 +1,24 @@
+.home {
+   display: flex;
+   align-items: center;;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.homeTitle {
+color: white;
+font-size: 8vw;
+padding-bottom: 0.5em;
+text-shadow: -4px 4px 2px green;
+letter-spacing: 1px;
+
+}
+
+.heroImage {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.mainLogo {
+    width: 45%;
+}
